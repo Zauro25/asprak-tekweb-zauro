@@ -17,6 +17,7 @@ export default function Home() {
         setProducts(data.products); 
     });
     }, [])
+    const [mobileMenuOpen, setMobileMenuOpen] = useState(false)
 
     return (
         <div className="bg-gray-900 min-h-screen">
