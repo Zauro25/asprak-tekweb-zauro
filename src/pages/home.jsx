@@ -47,8 +47,8 @@ export default function Home() {
             </header>
             <div className="px-4 py-3 text-white flex justify-between items-center">
                 <div className="mx-30 my-40 flex flex-col items-start">
-                    <h1 className="text-4xl font-bold">Welcome to Zauro25</h1>
-                    <h2 className="mx-20 text-2xl font-semibold">Bumi itu segitiga</h2>
+                    <h1 className="text-6xl font-bold">Welcome to Zauro25</h1>
+                    <h2 className="mx-40 text-4xl font-semibold">Bumi itu segitiga</h2>
                 </div>
                 <img src={windahBocil} className="mx-30 w-[300px] rounded-lg shadow-lg" alt="Vite logo" />
             </div>
