@@ -35,7 +35,15 @@ export default function Home() {
                     </a>
                     ))}
                     </div>
-                    <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:gap-x-4">
+                    <div className="hidden lg:flex lg:flex-1 lg:justify-end lg:items-end lg:gap-x-4">
+                    <a href="#" className="px-4 py-2 text-sm/6 font-semibold border border-black text-black bg-white px-4 py-2 rounded-md hover:bg-gray-200">
+                    Log in 
+                    </a>
+                    <a href="#" className="px-4 py-2 text-sm/6 font-semibold border border-black text-white bg-gray-900 px-4 py-2 rounded-md hover:bg-gray-200">
+                    Sign Up
+                    </a>
+                    </div>
+                     <div className="flex lg:hidden gap-x-4">
                     <a href="#" className="px-4 py-2 text-sm/6 font-semibold border border-black text-black bg-white px-4 py-2 rounded-md hover:bg-gray-200">
                     Log in 
                     </a>
@@ -45,21 +53,23 @@ export default function Home() {
                     </div>
                 </nav>
             </header>
-            <div className="px-4 py-3 text-white flex justify-between items-center">
-                <div className="mx-30 my-40 flex flex-col items-start">
+            <div className="px-4 py-3 text-white flex flex-col lg:flex-row justify-between items-center">
+                <div className="mx-20 my-40 flex flex-col items-start">
                     <h1 className="text-6xl font-bold">Welcome to Zauro25</h1>
-                    <h2 className="mx-40 text-4xl font-semibold">Bumi itu segitiga</h2>
+                    <h2 className="mt-4 text-2xl md:text-3xl font-semibold lg:text-4xl">Bumi itu segitiga</h2>
                 </div>
                 <img src={windahBocil} className="mx-30 w-[300px] rounded-lg shadow-lg" alt="Vite logo" />
             </div>
-            <section className="px-4 py-3 text-white flex justify-between items-center bg-red-300">
+            <section className="px-4 py-3 text-white flex lg:flex-row justify-between items-center bg-red-300">
                 <hr className="border-t-2 border-white my-10" />
-                <div className="mx-30 my-40 flex flex-col items-center">
+                <div className='px-4 py-3 flex flex-col lg:flex-row justify-between items-center'>
+                    <div className="mx-20 my-40 flex flex-col items-start">
                     <h1 className="my-30 text-7xl font-bold text-center">PRODUCT</h1>
                 </div>
                 <div className='my-30 flex flex-col items-center'>
                     <h3 className="mx-20 text-5xl font-semibold text-center">{products?.[2]?.title}</h3>
                     <h2 className="my-20 mx-20 text-2xl font-semibold text-center">{products?.[2]?.description}</h2>
+                </div>
                 </div>
             </section>
             <footer className="bg-blue-800 text-white font-semibold px-4 py-2 text-center">
