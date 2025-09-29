@@ -63,7 +63,7 @@ export default function Home() {
                 </div>
             </section>
             <footer className="bg-blue-800 text-white font-semibold px-4 py-2 text-center">
-                <p>&copy; 2024 Zauro25. All rights reserved.</p>
+                <p>&copy; 2025 Zauro25. All rights reserved.</p>
             </footer>
         </div>
     )
